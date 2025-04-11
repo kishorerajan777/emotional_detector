@@ -1,5 +1,10 @@
 import streamlit as st
+
+
 from textblob import TextBlob
+import nltk
+nltk.download('punkt')  # Only required once
+
 
 # Page config
 st.set_page_config(page_title="Emotion Detector", layout="centered")
