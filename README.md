@@ -1,4 +1,5 @@
-# 😊 Emotion Detection from Text
+# 😊 Emotion Detection from Text  
+[🚀 Live Demo](https://emotionaldetector-qy7uutvrlyhrkawsnbzkqh.streamlit.app/)
 
 A simple Streamlit web app that detects emotions from text using sentiment analysis with TextBlob.
 
@@ -13,12 +14,6 @@ A simple Streamlit web app that detects emotions from text using sentiment analy
 - Built with Python and Streamlit
 - Clean, centered UI for a better user experience
 
-## 🚀 Demo
-
-![Demo Screenshot](screenshot.png) <!-- Add a screenshot in your repo with this name -->
-
-Or try it locally by following the steps below.
-
 ## 🛠️ Tools Used
 
 - Python 🐍
@@ -31,5 +26,4 @@ Or try it locally by following the steps below.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/emotion-detector.git
-   cd emotion-detector
+   git clone https
