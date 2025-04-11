@@ -3,8 +3,12 @@ import streamlit as st
 
 from textblob import TextBlob
 import nltk
-nltk.download('punkt')  # Only required once
 
+# Automatically download corpora if not available
+try:
+    _ = nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 # Page config
 st.set_page_config(page_title="Emotion Detector", layout="centered")
